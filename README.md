@@ -1,12 +1,12 @@
-E-commerce Sales Analysis
+# E-commerce Sales Analysis
 
-Project Overview
+## Project Overview
 
 This project analyzes an e-commerce sales dataset containing 5,000 transactions. The goal is to explore sales performance, customer ratings, delivery times, payment methods, and regional and category-level trends.
 
 The project combines Python for data cleaning and exploratory analysis with Power BI for interactive data visualization and dashboard creation.
 
-Tools & Technologies
+## Tools & Technologies
 
 * Python
 * Pandas
@@ -17,7 +17,7 @@ Tools & Technologies
 * Excel
 * GitHub
 
-Analysis Performed
+## Analysis Performed
 
 The Python analysis includes:
 
@@ -40,11 +40,11 @@ The Python analysis includes:
 * Revenue classification
 * Delivery speed classification
 
-Power BI Dashboard
+## Power BI Dashboard
 
 The Power BI dashboard provides an interactive overview of the e-commerce business.
 
-Key Performance Indicators
+### Key Performance Indicators
 
 * Total Revenue
 * Total Sales
@@ -52,7 +52,7 @@ Key Performance Indicators
 * Average Delivery Days
 * Average Rating
 
-Visualizations
+### Visualizations
 
 * Sales by Category
 * Sales by Region
@@ -61,23 +61,25 @@ Visualizations
 * Rating by Category
 * Delivery by Region
 
-Interactive Filters
+### Interactive Filters
 
 * Year
 * Region
 * Product Category
 
-Python Analysis
+## Python Analysis
 
 The Python script is used to inspect, clean, transform, and analyze the dataset before visualization.
 
 The analysis includes data quality checks and several aggregations to identify trends across categories, regions, customers, and time periods.
 
+## Dashboard Preview
 
+![E-commerce Sales Dashboard](screenshots/dashboard.png)
 
-Project Structure
+## Project Structure
 
-
+```text
 ecommerce-sales-analysis/
 │
 ├── README.md
@@ -93,8 +95,8 @@ ecommerce-sales-analysis/
 │
 └── screenshots/
     └── dashboard.png
+```
 
-
-Project Objective
+## Project Objective
 
 This project was created as a portfolio project to demonstrate practical skills in data analysis, data cleaning, Python, Power BI, DAX, and data visualization.
