@@ -151,3 +151,6 @@ quantity_by_category(df)
 average_revenue(df)
 df = classify_revenue(df)
 df = classify_delivery(df)
+
+# Export cleaned dataset for Power BI
+df.to_csv("ecommerce_sales_clean.csv", index=False)
