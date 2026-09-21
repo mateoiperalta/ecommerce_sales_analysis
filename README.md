@@ -88,7 +88,7 @@ ecommerce-sales-analysis/
 │   └── ecommerce_sales_analytics_5000.csv
 │
 ├── python/
-│   └── ecommerce_analysis.py
+│   └── ecommerce_sales_analysis.py
 │
 ├── powerbi/
 │   └── ecommerce_sales_dashboard.pbix
