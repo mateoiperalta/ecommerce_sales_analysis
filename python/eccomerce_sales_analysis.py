@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from pathlib import Path
 
 def show_dimensions(df):
     print("===Dimensions===".center(60))
@@ -125,7 +126,9 @@ def classify_delivery(df):
 
     return df
 
-df = pd.read_csv("ecommerce_sales_analytics_5000.csv")
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+df = pd.read_csv(BASE_DIR / "data" / "ecommerce_sales_analytics_5000.csv")
 
 #analysis:
 show_dimensions(df)
