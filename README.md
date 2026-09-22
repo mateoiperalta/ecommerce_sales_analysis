@@ -71,6 +71,10 @@ The Power BI dashboard provides an interactive overview of the e-commerce busine
 * Region
 * Product Category
 
+## Power BI Dashboard Preview
+
+![Power BI Dashboard](screenshots/dashboard.png)
+
 ## Web Dashboard
 
 The project also includes an interactive web dashboard built with HTML, CSS, JavaScript, and Chart.js.
@@ -90,3 +94,38 @@ The web dashboard provides the same main analysis through an accessible browser-
 ### Live Dashboard
 
 [View the Interactive Web Dashboard](https://mateoiperalta.github.io/ecommerce_sales_analysis/web/index.html)
+
+## Python Analysis
+
+The Python script is used to inspect, clean, transform, and analyze the dataset before visualization.
+
+The analysis includes data quality checks and several aggregations to identify trends across categories, regions, customers, and time periods.
+
+## Project Structure
+
+```text
+ecommerce_sales_analysis/
+
+├── README.md
+│
+├── data/
+│   └── ecommerce_sales_analytics_5000.csv
+│
+├── python/
+│   └── ecommerce_sales_analysis.py
+│
+├── powerbi/
+│   └── ecommerce_sales_dashboard.pbix
+│
+├── screenshots/
+│   └── dashboard.png
+│
+└── web/
+    ├── index.html
+    ├── style.css
+    └── script.js
+```
+
+## Project Objective
+
+This project was created as a portfolio project to demonstrate practical skills in data analysis, data cleaning, Python, Power BI, DAX, data visualization, and web-based dashboard development.
