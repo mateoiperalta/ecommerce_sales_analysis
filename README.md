@@ -95,6 +95,10 @@ The web dashboard provides the same main analysis through an accessible browser-
 
 [View the Interactive Web Dashboard](https://mateoiperalta.github.io/ecommerce_sales_analysis/web/index.html)
 
+## Web Dashboard Preview
+
+![Web Dashboard](screenshots/web-dashboard.png)
+
 ## Python Analysis
 
 The Python script is used to inspect, clean, transform, and analyze the dataset before visualization.
@@ -118,7 +122,8 @@ ecommerce_sales_analysis/
 │   └── ecommerce_sales_dashboard.pbix
 │
 ├── screenshots/
-│   └── dashboard.png
+│   ├── dashboard.png
+│   └── web-dashboard.png
 │
 └── web/
     ├── index.html
