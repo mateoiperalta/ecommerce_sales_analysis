@@ -89,4 +89,4 @@ The web dashboard provides the same main analysis through an accessible browser-
 
 ### Live Dashboard
 
-[View th]()
+[View the Interactive Web Dashboard](https://mateoiperalta.github.io/ecommerce_sales_analysis/web/index.html)
