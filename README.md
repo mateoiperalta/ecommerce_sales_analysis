@@ -4,7 +4,7 @@
 
 This project analyzes an e-commerce sales dataset containing 5,000 transactions. The goal is to explore sales performance, customer ratings, delivery times, payment methods, and regional and category-level trends.
 
-The project combines Python for data cleaning and exploratory analysis with Power BI for interactive data visualization and dashboard creation.
+The project combines Python for data cleaning and exploratory analysis, Power BI for interactive dashboard creation, and HTML, CSS, JavaScript, and Chart.js for a web-based interactive dashboard.
 
 ## Tools & Technologies
 
@@ -15,6 +15,10 @@ The project combines Python for data cleaning and exploratory analysis with Powe
 * Power Query
 * DAX
 * Excel
+* HTML
+* CSS
+* JavaScript
+* Chart.js
 * GitHub
 
 ## Analysis Performed
@@ -67,36 +71,22 @@ The Power BI dashboard provides an interactive overview of the e-commerce busine
 * Region
 * Product Category
 
-## Python Analysis
+## Web Dashboard
 
-The Python script is used to inspect, clean, transform, and analyze the dataset before visualization.
+The project also includes an interactive web dashboard built with HTML, CSS, JavaScript, and Chart.js.
 
-The analysis includes data quality checks and several aggregations to identify trends across categories, regions, customers, and time periods.
+The web dashboard provides the same main analysis through an accessible browser-based interface, including:
 
-## Dashboard Preview
+* KPI cards
+* Interactive charts
+* Year filter
+* Region filter
+* Product category filter
+* Sales analysis by category, region, and payment method
+* Sales over time
+* Rating analysis
+* Delivery analysis
 
-![E-commerce Sales Dashboard](screenshots/dashboard.png)
+### Live Dashboard
 
-## Project Structure
-
-```text
-ecommerce-sales-analysis/
-│
-├── README.md
-│
-├── data/
-│   └── ecommerce_sales_analytics_5000.csv
-│
-├── python/
-│   └── ecommerce_sales_analysis.py
-│
-├── powerbi/
-│   └── ecommerce_sales_dashboard.pbix
-│
-└── screenshots/
-    └── dashboard.png
-```
-
-## Project Objective
-
-This project was created as a portfolio project to demonstrate practical skills in data analysis, data cleaning, Python, Power BI, DAX, and data visualization.
+[View th]()
