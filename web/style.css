@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f1f3f6;
+    color: #1f2937;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 24px 40px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 27px;
+    font-weight: 600;
+    color: #111827;
+}
+
+header p {
+    margin: 6px 0 0;
+    color: #6b7280;
+    font-size: 14px;
+}
+
+.dashboard {
+    max-width: 1150px;
+    margin: auto;
+    padding: 24px 35px 40px;
+}
+
+.data-note {
+    margin-bottom: 20px;
+    padding: 10px 14px;
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 7px;
+    color: #6b7280;
+    font-size: 12px;
+}
+
+.filters {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.filter {
+    background-color: #ffffff;
+    padding: 11px 14px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    min-width: 150px;
+}
+
+.filter label {
+    display: block;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6b7280;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.filter select {
+    width: 100%;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    padding: 7px 9px;
+    background-color: #ffffff;
+    color: #374151;
+    font-size: 13px;
+    outline: none;
+}
+
+.filter select:focus {
+    border-color: #9ca3af;
+}
+
+.kpi-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.kpi {
+    background-color: #ffffff;
+    padding: 17px;
+    border-radius: 9px;
+    border: 1px solid #e5e7eb;
+}
+
+.kpi h3 {
+    margin: 0;
+    font-size: 11px;
+    font-weight: 600;
+    color: #6b7280;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.kpi p {
+    margin: 8px 0 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.charts-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+
+.chart-container {
+    background-color: #ffffff;
+    padding: 16px;
+    border-radius: 9px;
+    border: 1px solid #e5e7eb;
+}
+
+.chart-container h2 {
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+}
+
+.chart-container canvas {
+    display: block;
+}
+
+@media (max-width: 900px) {
+    .kpi-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .charts-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 600px) {
+    .kpi-container {
+        grid-template-columns: 1fr;
+    }
+
+    .filters {
+        flex-direction: column;
+    }
+
+    .filter {
+        width: auto;
+    }
+
+    .dashboard {
+        padding: 20px 15px 30px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 23px;
+    }
+}
