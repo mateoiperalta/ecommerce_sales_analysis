@@ -4,13 +4,15 @@
 
 This project analyzes an e-commerce sales dataset containing 5,000 transactions. The goal is to explore sales performance, customer ratings, delivery times, payment methods, and regional and category-level trends.
 
-The project combines Python for data cleaning and exploratory analysis, Power BI for interactive dashboard creation, and HTML, CSS, JavaScript, and Chart.js for a web-based interactive dashboard.
+The project combines Python for data cleaning and exploratory analysis, PostgreSQL and SQL for database analysis, Power BI for interactive dashboard creation, and HTML, CSS, JavaScript, and Chart.js for a web-based interactive dashboard.
 
 ## Tools & Technologies
 
 * Python
 * Pandas
 * NumPy
+* SQL
+* PostgreSQL
 * Power BI
 * Power Query
 * DAX
@@ -43,6 +45,35 @@ The Python analysis includes:
 * Average revenue
 * Revenue classification
 * Delivery speed classification
+
+## SQL Analysis
+
+The project also includes a PostgreSQL database used to perform SQL-based data analysis.
+
+The SQL analysis includes:
+
+* Data quality checks
+* Sales analysis by category and region
+* Monthly sales analysis
+* Payment method analysis
+* Customer analysis
+* Top customers by revenue
+* Rating and delivery analysis
+* Discount analysis
+* Revenue rankings
+* Common Table Expressions (CTEs)
+* Window Functions
+* Business insights
+
+The SQL queries are organized into separate files:
+
+```text
+sql/
+├── 01_data_quality.sql
+├── 02_sales_analysis.sql
+├── 03_customer_analysis.sql
+└── 04_business_insights.sql
+```
 
 ## Power BI Dashboard
 
@@ -118,6 +149,12 @@ ecommerce_sales_analysis/
 ├── python/
 │   └── ecommerce_sales_analysis.py
 │
+├── sql/
+│   ├── 01_data_quality.sql
+│   ├── 02_sales_analysis.sql
+│   ├── 03_customer_analysis.sql
+│   └── 04_business_insights.sql
+│
 ├── powerbi/
 │   └── ecommerce_sales_dashboard.pbix
 │
@@ -133,4 +170,4 @@ ecommerce_sales_analysis/
 
 ## Project Objective
 
-This project was created as a portfolio project to demonstrate practical skills in data analysis, data cleaning, Python, Power BI, DAX, data visualization, and web-based dashboard development.
+This project was created as a portfolio project to demonstrate practical skills in data analysis, data cleaning, SQL, PostgreSQL, Python, Power BI, DAX, data visualization, and web-based dashboard development.
